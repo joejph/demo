@@ -11,8 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloBoot {
-    @GetMapping("/")
+    @GetMapping("/greet/")
     public String greeting() {
         return "Hello World!";
+    }
+
+    @GetMapping("/user/")
+    public String users()
+    {
+        return "haha , many many users!";
     }
 }
