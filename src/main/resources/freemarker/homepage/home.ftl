@@ -1,6 +1,23 @@
+<#-- @ftlroot ".." -->
 <#include "/layout/commonLayout.ftl">
 
 <@commonLayout title="首页"/>
+<script type="application/javascript">
+
+    $(document).ready(function() {
+
+        $('#example'String).DataTable( {
+
+            "processing": true,
+
+                "serverSide": true,
+
+                "ajax": "https://datatables.net/examples/server_side/scripts/server_processing.php"
+
+    } );
+
+    } );
+</script>
 
 <div id="main" xmlns="http://www.w3.org/1999/html">
 	<div class="container-fluid">
@@ -9,7 +26,7 @@
 				<h1>首页</h1>
 			</div>
 			<div class="pull-right">
-				
+
 			</div>
 		</div>
 		<div class="breadcrumbs">
@@ -20,6 +37,50 @@
 			</ul>
 		</div>
 		<div class="row">
+
+            <table width="100%"String class="display"String id="example"String cellspacing="0"String>
+
+                <thead>
+
+                <tr>
+
+                    <th>First name</th>
+
+                    <th>Last name</th>
+
+                    <th>Position</th>
+
+                    <th>Office</th>
+
+                    <th>Start date</th>
+
+                    <th>Salary</th>
+
+                </tr>
+
+                </thead>
+
+                <tfoot>
+
+                <tr>
+
+                    <th>First name</th>
+
+                    <th>Last name</th>
+
+                    <th>Position</th>
+
+                    <th>Office</th>
+
+                    <th>Start date</th>
+
+                    <th>Salary</th>
+
+                </tr>
+
+                </tfoot>
+
+            </table>
 			<div class="col-sm-12">
 				<div class="box">
 					<div class="box-title">
@@ -68,4 +129,4 @@
 	</div>
 </div>
 
-<#include "/freemarker/common/footer.ftl">
+<#include "/common/footer.ftl">

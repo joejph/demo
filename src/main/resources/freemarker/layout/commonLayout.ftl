@@ -77,7 +77,6 @@
 </head>
 <body>
 <#include "/common/header.ftl">
-<#include "/common/left.ftl">
 <#nested/>
 
 </body>

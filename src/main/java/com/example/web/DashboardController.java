@@ -9,6 +9,6 @@ public class DashboardController {
 
     @RequestMapping("/")
     public String dashboard(){
-        return "freemarker/homepage/home";
+        return "homepage/home";
     }
 }

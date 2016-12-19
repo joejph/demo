@@ -12,7 +12,7 @@
 				<ul class="icon-nav">
 					<li><span><i class="glyphicon glyphicon-user"></i></span>
 						<a href="#" title="修改资料">
-							<span><@shiro.principal/> </span>
+							<span></span>
 						</a>
 					</li>
 					<li><span><i class="glyphicon glyphicon-edit"></i></span>
