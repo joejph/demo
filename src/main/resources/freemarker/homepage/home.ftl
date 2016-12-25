@@ -3,19 +3,10 @@
 
 <@commonLayout title="首页"/>
 <script type="application/javascript">
-
     $(document).ready(function() {
-
-        $('#example'String).DataTable( {
-
-            "processing": true,
-
-                "serverSide": true,
-
-                "ajax": "https://datatables.net/examples/server_side/scripts/server_processing.php"
-
-    } );
-
+        $("#example").DataTable( {
+			"ajax": "https://datatables.net/examples/ajax/data/arrays.txt"
+    	} );
     } );
 </script>
 
@@ -38,19 +29,19 @@
 		</div>
 		<div class="row">
 
-            <table width="100%"String class="display"String id="example"String cellspacing="0"String>
+            <table width="100%" class="display" id="example" cellspacing="0">
 
                 <thead>
 
                 <tr>
 
-                    <th>First name</th>
-
-                    <th>Last name</th>
+                    <th>Name</th>
 
                     <th>Position</th>
 
                     <th>Office</th>
+
+                    <th>Extn.</th>
 
                     <th>Start date</th>
 
@@ -64,13 +55,13 @@
 
                 <tr>
 
-                    <th>First name</th>
-
-                    <th>Last name</th>
+                    <th>Name</th>
 
                     <th>Position</th>
 
                     <th>Office</th>
+
+                    <th>Extn.</th>
 
                     <th>Start date</th>
 

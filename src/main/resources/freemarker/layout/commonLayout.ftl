@@ -25,7 +25,8 @@
 
 <!-- jQuery -->
 <script src="${rc.contextPath}/flat/js/jquery.min.js"></script>
-<!-- Nice Scroll -->
+<script src="${rc.contextPath}/js/jquery.dataTables.min.js"></script>
+    <!-- Nice Scroll -->
 <script src="${rc.contextPath}/flat/js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
 <!-- plupload -->
 <script src="${rc.contextPath}/flat/js/plugins/plupload/plupload.full.min.js"></script>
